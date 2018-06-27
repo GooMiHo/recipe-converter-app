@@ -5,11 +5,10 @@
     padding: 0;
 }
 
-/*body {
-    background-image: url("../src/rec_converter_logo2.jpg")
-
+body {
+    background-color: grey;
 }
-*/
+
 .header {
     text-align: center;
 }
