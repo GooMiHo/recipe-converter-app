@@ -74,7 +74,7 @@ h2 {
 }
 
 body {
-	background-image: url("/background.jpg");
+	background-image: url("../src/background.jpg");
     background-color: #D2D4D9;
 }
 
