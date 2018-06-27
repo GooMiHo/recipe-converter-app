@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
 import {ingrArray} from './ingredient-conv-chart';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -22,7 +21,6 @@ function convertCupRemainders(remainingCups, fullCups){
 
   let smallerRemainder;
   let largerMeasuringUnit = [];
-  //let count = 1
   let countUnits;
 
 
@@ -303,7 +301,3 @@ document.getElementById("pressed-button").addEventListener("click", function() {
         alert("ingredient is not avaliable");
     }
 }, false);
-
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
