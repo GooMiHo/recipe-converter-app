@@ -1,9 +1,9 @@
-* {
+/** {
     font-family: Tahoma;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}*/
 
 /*body {
     background-image: url("../src/rec_converter_logo2.jpg")
@@ -38,7 +38,7 @@
 
 
 }*/
-
+/*
 h2, .blue-green, #gramsOfIng, #enteredIngredient {
     color: #39393B;
     font-weight: bold;
@@ -158,11 +158,11 @@ body {
     left: 275px;
     margin: 30px;
 
-}
+}*/
 
 
-/*body {
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}*/
+}
