@@ -1,17 +1,18 @@
-/** {
+* {
     font-family: Tahoma;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}*/
-
-body {
-    background-color: blue;
 }
 
-/*.header {
+/*body {
+    background-image: url("../src/rec_converter_logo2.jpg")
+
+}
+*/
+.header {
     text-align: center;
-}*/
+}
 
 
 
@@ -35,7 +36,7 @@ body {
     font-weight: bold;
     line-height: 1.4;
 
-
+*/
 
 
 h2, .blue-green, #gramsOfIng, #enteredIngredient {
@@ -51,7 +52,7 @@ h2 {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*
 .ing-and-grams, #gramsOfIng, #enteredIngredient {
     font-size:12px;
 }
