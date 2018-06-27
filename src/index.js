@@ -1,6 +1,17 @@
-import React, { Component } from 'react';
+
+
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+//
+// ReactDOM.render(<App />, document.getElementById('root'));
+// registerServiceWorker(); --added at bottom
+
+// import React from 'react'; --from before
+// import ReactDOM from 'react-dom'; --from before
+// import './index.css'; --from before
 import {ingrArray} from './ingredient-conv-chart';
 
 function convertCupRemainders(remainingCups, fullCups){
@@ -301,12 +312,4 @@ document.getElementById("pressed-button").addEventListener("click", function() {
     }
 }, false);
 
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
-//
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();
