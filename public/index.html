@@ -40,7 +40,7 @@
                  <textarea placeholder="enter recipe here" id="full-recipe" "full-recipe"></textarea>
             </div>
         </form>
-    </div>
+    </div> here !!!!!!
     <script async src="index.js"></script>  <!-- Check to see it async works and/or makes page load faster--> -->
   <!-- </body>
 </html> -->
@@ -72,7 +72,34 @@
 add the ingredient to your converted recipe list, push the add button.</p>
     </div>
     <br />
-    <div id="root"></div>
+	<div class="margin">
+        <h2>Enter ingredients (in grams):</h2>
+        <form>
+            <span class="blue-green ing-and-grams">ingredient:</span><input type="text" list="ingredientList" id="enteredIngredient" class="input-boxes">
+      	     <datalist id="ingredientList">
+             </datalist>
+             <span class="blue-green more-space ing-and-grams">grams:</span><input type="number" id="gramsOfIng" class="input-boxes"><input type="button" id="pressed-button" value="Add" />
+         </form>
+         <br />
+         <br />
+         <div class="list-paper">
+             <h2 id="ingredient-list">New ingredients list (in cups)
+                 <input type="button" id="add-list-button" value="Add To Recipe"/>
+             </h2>
+             <div id="root"></div>
+        </div>
+         <form action:"mailto:{document.getElementById(email-address).innerHTML}" method="post" enctype="text/plan">
+             E-mail:<br />
+             <input type="text" id="email-address" name="email" class="input-boxes">
+             <br />
+             <br />
+             <div id="recipe-card">
+                 <div id="root2"></div>
+                 <div id="root3"></div>
+                 <textarea placeholder="enter recipe here" id="full-recipe" "full-recipe"></textarea>
+            </div>
+        </form>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
