@@ -306,4 +306,4 @@ document.getElementById("pressed-button").addEventListener("click", function() {
 
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
