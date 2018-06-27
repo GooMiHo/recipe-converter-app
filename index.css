@@ -1,0 +1,134 @@
+* {
+    font-family: Tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+	width: 100%;
+	background-color: #DA94A4;
+}
+
+.title-logo {
+	width: 65%;
+	margin-top: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.banner-text {
+	width: 85%;
+	display: block;
+	margin-left: 85px;
+	padding-bottom: 20px;
+	color: #585C57;
+	font-size: 10px;
+}
+
+h2, .ing-and-grams, #gramsOfIng, #enteredIngredient {
+    color: #585C57;
+    font-weight: bold;
+}
+
+h2 {
+    font-size:20px;
+}
+
+.more-space {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.ing-and-grams, #gramsOfIng, #enteredIngredient {
+    font-size:12px;
+}
+
+ #gramsOfIng, #enteredIngredient {
+    text-align: center;
+ }
+
+#recipe-title {
+	margin-left: 30px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 3px;
+    color: green;
+}
+
+.theList {
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+#remove-button {
+
+    background-color: white;
+    border-radius: 25px;
+    color: lightgrey;
+    font-size: 8px;
+	padding: 2px;
+}
+
+body {
+	background-image: url("/background.jpg");
+    background-color: #D2D4D9;
+}
+
+.margin {
+    margin-left: 50px;
+	margin-right: 50px;
+}
+
+.input-boxes {
+    border-radius: 8px;
+    border-color: black;
+    margin-left: 5px;
+}
+
+#pressed-button {
+    background-color: #AB5361;
+    color: #D2D4D9;
+    border-radius: 35px;
+    height: 25px;
+    margin-left: 10px;
+    border-color: #703640;
+    border-width: 3px;
+
+}
+
+#email-address {
+    width: 300px;
+}
+
+#recipe-ingredients {
+    color: green;
+    margin: 20px;
+}
+
+#full-recipe {
+    width: 800px;
+    min-height: 300px;
+    overflow: auto;
+    border-top: solid green;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 25px;
+    outline: none;
+}
+
+#recipe-card {
+    background-color: white;
+    border: dashed green;
+    width: 850px;
+    height: 500px;
+    position: relative;
+    left: 275px;
+    margin: 30px;
+
+}
