@@ -290,3 +290,16 @@ document.getElementById("pressed-button").addEventListener("click", function() {
         alert("ingredient is not avaliable");
     }
 }, false);
+
+
+
+
+document.getElementById('send-recipe').addEventListener("click", sendEmail);
+
+    function sendEmail() {
+    	var email = document.getElementById('email-address').value;
+		var subject = 'Converted Recipe from Recipe Converter';
+    	var message = document.getElementById('root').value + '\n';
+		message += document.getElementById('full-recipe').value
+    	window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + message;
+    }
