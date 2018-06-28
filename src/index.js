@@ -4,7 +4,6 @@ import './index.css';
 import {ingrArray} from './ingredient-conv-chart';
 import registerServiceWorker from './registerServiceWorker';
 
-
 function convertCupRemainders(remainingCups, fullCups){
   let cupsToTblOrTsp = [
     {cup: 0.06, cupTblsTsp: '1 Tbls', unit: ' Tbls'},
@@ -270,16 +269,6 @@ function addNewItem(wordToFind, amountToConvert) {
     ReactDOM.render(<ul>{recipeLis}</ul>, document.getElementById('root'));
 }
 
-// document.getElementById("add-list-button").addEventListener("click", function() {
-//     const recipeLis2 = itemsAndAmounts.map((item, i) => {
-//         let keyId2 = 'item2_' + i;
-//         return <li key={keyId2} id={keyId2}>{item}</li>;
-//     });
-//     ReactDOM.render(<h1 id="recipe-ingredients">Ingredients:</h1>, document.getElementById('root2'));
-//     ReactDOM.render(<ul id="theList2Ul">{recipeLis2}</ul>, document.getElementById('root3'));
-// });
-
-
 function searchList(val) {
     for (let i=0; i < ingrArray.length; i++) {
         if (ingrArray[i].wordCheck === val) {
@@ -301,3 +290,11 @@ document.getElementById("pressed-button").addEventListener("click", function() {
         alert("ingredient is not avaliable");
     }
 }, false);
+
+function adjustRecipeCardHeight() {
+	var recipeCard = document.getElementById("recipe-card");
+	var width = recipeCard.offsetWidth * 0.6;
+	recipeCard.style.height = width + 'px';
+};
+
+adjustRecipeCardHeight();

@@ -11,8 +11,7 @@
 }
 
 .title-logo {
-	width: 65%;
-	margin-top: 10px;
+	width: 60%;
 }
 
 .header {
@@ -74,7 +73,11 @@ h2 {
 }
 
 body {
-	background-image: url("../src/background.jpg");
+	background: url("https://s25.postimg.cc/tqtiskrz3/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+             background-size: cover;
     background-color: #D2D4D9;
 }
 
@@ -109,24 +112,28 @@ body {
     margin: 20px;
 }
 
+.recipe-card-border {
+	min-height: 500px;
+}
+
 #full-recipe {
-    width: 800px;
-    min-height: 300px;
-    overflow: auto;
+    width: 90%;
+    height: 30%;
+    overflow: hidden;
     border-top: solid green;
     border-width: 2px;
     border-left: none;
     border-right: none;
     border-bottom: none;
-    margin: 25px;
+    margin: 5%;
     outline: none;
 }
 
 #recipe-card {
     background-color: white;
     border: dashed green;
-    width: 850px;
-    height: 500px;
+    width: 50%;
+    /* height is calculated in index.js with function adjustRecipeCardHeight()*/
     position: relative;
     left: 275px;
     margin: 30px;
