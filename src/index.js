@@ -290,11 +290,3 @@ document.getElementById("pressed-button").addEventListener("click", function() {
         alert("ingredient is not avaliable");
     }
 }, false);
-
-function adjustRecipeCardHeight() {
-	var recipeCard = document.getElementById("recipe-card");
-	var width = recipeCard.offsetWidth * 0.6;
-	recipeCard.style.height = width + 'px';
-};
-
-adjustRecipeCardHeight();

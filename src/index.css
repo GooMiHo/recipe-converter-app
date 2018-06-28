@@ -12,6 +12,7 @@
 
 .title-logo {
 	width: 60%;
+	margin-top: 5px;
 }
 
 .header {
@@ -112,13 +113,10 @@ body {
     margin: 20px;
 }
 
-.recipe-card-border {
-	min-height: 500px;
-}
 
 #full-recipe {
     width: 90%;
-    height: 30%;
+    height: 200px;
     overflow: hidden;
     border-top: solid green;
     border-width: 2px;
@@ -132,10 +130,9 @@ body {
 #recipe-card {
     background-color: white;
     border: dashed green;
-    width: 50%;
-    /* height is calculated in index.js with function adjustRecipeCardHeight()*/
+    width: 700px;
+	min-height: 450px;
     position: relative;
     left: 275px;
     margin: 30px;
-
 }
